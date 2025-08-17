@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:09:15 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 9,44,66,100,108,112,116,123,131,182,210,235,238,244,246,446 -oX out/157.185.186.125/nmap.xml 157.185.186.125 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 9,44,66,100,108,112,116,123,131,182,210,235,238,244,246,446 -oX out/157.185.186.125/nmap.xml 157.185.186.125" start="1755403755" startstr="Sun Aug 17 00:09:15 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="16" services="9,44,66,100,108,112,116,123,131,182,210,235,238,244,246,446"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755403756" endtime="1755403757"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.125" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="9"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="discard" method="table" conf="3"/></port>
+<port protocol="tcp" portid="44"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mpm-flags" method="table" conf="3"/></port>
+<port protocol="tcp" portid="66"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="sqlnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="100"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="newacct" method="table" conf="3"/></port>
+<port protocol="tcp" portid="108"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="snagas" method="table" conf="3"/></port>
+<port protocol="tcp" portid="112"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mcidas" method="table" conf="3"/></port>
+<port protocol="tcp" portid="116"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ansanotify" method="table" conf="3"/></port>
+<port protocol="tcp" portid="123"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ntp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="131"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="cisco-tna" method="table" conf="3"/></port>
+<port protocol="tcp" portid="182"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="audit" method="table" conf="3"/></port>
+<port protocol="tcp" portid="210"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="235"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="238"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="244"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dayna" method="table" conf="3"/></port>
+<port protocol="tcp" portid="246"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="446"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ddm-rdb" method="table" conf="3"/></port>
+</ports>
+<times srtt="75326" rttvar="119356" to="552750"/>
+</host>
+<runstats><finished time="1755403757" timestr="Sun Aug 17 00:09:17 2025" summary="Nmap done at Sun Aug 17 00:09:17 2025; 1 IP address (1 host up) scanned in 1.82 seconds" elapsed="1.82" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

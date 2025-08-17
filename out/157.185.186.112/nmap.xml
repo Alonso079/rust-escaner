@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:08:35 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 16,23,25,28,37,45,48,49,65,80,81,86,90 -oX out/157.185.186.112/nmap.xml 157.185.186.112 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 16,23,25,28,37,45,48,49,65,80,81,86,90 -oX out/157.185.186.112/nmap.xml 157.185.186.112" start="1755403715" startstr="Sun Aug 17 00:08:35 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="13" services="16,23,25,28,37,45,48-49,65,80-81,86,90"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755403715" endtime="1755403723"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.112" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="16"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="23"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="telnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="25"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="28"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="37"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="time" method="table" conf="3"/></port>
+<port protocol="tcp" portid="45"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mpm" method="table" conf="3"/></port>
+<port protocol="tcp" portid="48"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="auditd" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="tacacs" method="table" conf="3"/></port>
+<port protocol="tcp" portid="65"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="tacacs-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="81"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="hosts2-ns" method="table" conf="3"/></port>
+<port protocol="tcp" portid="86"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mfcobol" method="table" conf="3"/></port>
+<port protocol="tcp" portid="90"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="76660" rttvar="121572" to="562948"/>
+</host>
+<runstats><finished time="1755403723" timestr="Sun Aug 17 00:08:43 2025" summary="Nmap done at Sun Aug 17 00:08:43 2025; 1 IP address (1 host up) scanned in 8.62 seconds" elapsed="8.62" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:05:59 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 2,30,56,57,78,88,90,97,111,126,138,198,207,220,233,237,243 -oX out/157.185.186.57/nmap.xml 157.185.186.57 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 2,30,56,57,78,88,90,97,111,126,138,198,207,220,233,237,243 -oX out/157.185.186.57/nmap.xml 157.185.186.57" start="1755446759" startstr="Sun Aug 17 12:05:59 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="17" services="2,30,56-57,78,88,90,97,111,126,138,198,207,220,233,237,243"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446760" endtime="1755446761"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.57" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="2"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="compressnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="30"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="56"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-auth" method="table" conf="3"/></port>
+<port protocol="tcp" portid="57"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="78"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="vettcp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="88"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="kerberos-sec" method="table" conf="3"/></port>
+<port protocol="tcp" portid="90"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dnsix" method="table" conf="3"/></port>
+<port protocol="tcp" portid="97"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="swift-rvf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="rpcbind" method="table" conf="3"/></port>
+<port protocol="tcp" portid="126"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="unitary" method="table" conf="3"/></port>
+<port protocol="tcp" portid="138"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netbios-dgm" method="table" conf="3"/></port>
+<port protocol="tcp" portid="198"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dls-mon" method="table" conf="3"/></port>
+<port protocol="tcp" portid="207"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="at-7" method="table" conf="3"/></port>
+<port protocol="tcp" portid="220"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="imap3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="233"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="237"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="243"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="sur-meas" method="table" conf="3"/></port>
+</ports>
+<times srtt="47825" rttvar="75655" to="350445"/>
+</host>
+<runstats><finished time="1755446761" timestr="Sun Aug 17 12:06:01 2025" summary="Nmap done at Sun Aug 17 12:06:01 2025; 1 IP address (1 host up) scanned in 1.94 seconds" elapsed="1.94" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

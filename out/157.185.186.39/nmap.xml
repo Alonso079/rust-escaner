@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:04:55 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 8,24,25,29,30,34,46,56,61,68,72,73,82,84,85,88,32742,32967,33244,33593,33943,34092 -oX out/157.185.186.39/nmap.xml 157.185.186.39 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 8,24,25,29,30,34,46,56,61,68,72,73,82,84,85,88,32742,32967,33244,33593,33943,34092 -oX out/157.185.186.39/nmap.xml 157.185.186.39" start="1755446695" startstr="Sun Aug 17 12:04:55 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="22" services="8,24-25,29-30,34,46,56,61,68,72-73,82,84-85,88,32742,32967,33244,33593,33943,34092"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446696" endtime="1755446697"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.39" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="8"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="24"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-mail" method="table" conf="3"/></port>
+<port protocol="tcp" portid="25"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="29"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="msg-icp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="30"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="34"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="46"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mpm-snd" method="table" conf="3"/></port>
+<port protocol="tcp" portid="56"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-auth" method="table" conf="3"/></port>
+<port protocol="tcp" portid="61"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ni-mail" method="table" conf="3"/></port>
+<port protocol="tcp" portid="68"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dhcpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="72"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netrjs-2" method="table" conf="3"/></port>
+<port protocol="tcp" portid="73"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netrjs-3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="82"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xfer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="84"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ctf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="85"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mit-ml-dev" method="table" conf="3"/></port>
+<port protocol="tcp" portid="88"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="kerberos-sec" method="table" conf="3"/></port>
+<port protocol="tcp" portid="32742"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="32967"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="33244"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="33593"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="33943"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="34092"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+</ports>
+<times srtt="8223" rttvar="1076" to="100000"/>
+</host>
+<runstats><finished time="1755446697" timestr="Sun Aug 17 12:04:57 2025" summary="Nmap done at Sun Aug 17 12:04:57 2025; 1 IP address (1 host up) scanned in 2.38 seconds" elapsed="2.38" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

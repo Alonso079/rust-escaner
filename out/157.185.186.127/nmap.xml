@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 11:57:51 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 28,36,52,69,80,92,94,98,104,112,117 -oX out/157.185.186.127/nmap.xml 157.185.186.127 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 28,36,52,69,80,92,94,98,104,112,117 -oX out/157.185.186.127/nmap.xml 157.185.186.127" start="1755446271" startstr="Sun Aug 17 11:57:51 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="11" services="28,36,52,69,80,92,94,98,104,112,117"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446271" endtime="1755446273"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.127" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="28"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="36"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="52"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-time" method="table" conf="3"/></port>
+<port protocol="tcp" portid="69"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="92"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="npp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="94"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="objcall" method="table" conf="3"/></port>
+<port protocol="tcp" portid="98"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="linuxconf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="104"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="acr-nema" method="table" conf="3"/></port>
+<port protocol="tcp" portid="112"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="mcidas" method="table" conf="3"/></port>
+<port protocol="tcp" portid="117"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="uucp-path" method="table" conf="3"/></port>
+</ports>
+<times srtt="7833" rttvar="2282" to="100000"/>
+</host>
+<runstats><finished time="1755446273" timestr="Sun Aug 17 11:57:53 2025" summary="Nmap done at Sun Aug 17 11:57:53 2025; 1 IP address (1 host up) scanned in 1.99 seconds" elapsed="1.99" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

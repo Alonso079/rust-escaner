@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:32:48 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 32,35,47,52,54,61,90,95,109,115,141,170,172,185,190,192,213,230,236 -oX out/157.185.186.221/nmap.xml 157.185.186.221 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 32,35,47,52,54,61,90,95,109,115,141,170,172,185,190,192,213,230,236 -oX out/157.185.186.221/nmap.xml 157.185.186.221" start="1755405168" startstr="Sun Aug 17 00:32:48 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="19" services="32,35,47,52,54,61,90,95,109,115,141,170,172,185,190,192,213,230,236"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755405169" endtime="1755405170"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.221" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="32"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="35"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-print" method="table" conf="3"/></port>
+<port protocol="tcp" portid="47"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ni-ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="52"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-time" method="table" conf="3"/></port>
+<port protocol="tcp" portid="54"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-ch" method="table" conf="3"/></port>
+<port protocol="tcp" portid="61"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ni-mail" method="table" conf="3"/></port>
+<port protocol="tcp" portid="90"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dnsix" method="table" conf="3"/></port>
+<port protocol="tcp" portid="95"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="supdup" method="table" conf="3"/></port>
+<port protocol="tcp" portid="109"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="pop2" method="table" conf="3"/></port>
+<port protocol="tcp" portid="115"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="sftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="141"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="emfis-cntl" method="table" conf="3"/></port>
+<port protocol="tcp" portid="170"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="print-srv" method="table" conf="3"/></port>
+<port protocol="tcp" portid="172"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="cl-1" method="table" conf="3"/></port>
+<port protocol="tcp" portid="185"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="remote-kis" method="table" conf="3"/></port>
+<port protocol="tcp" portid="190"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="gacp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="192"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="osu-nms" method="table" conf="3"/></port>
+<port protocol="tcp" portid="213"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ipx" method="table" conf="3"/></port>
+<port protocol="tcp" portid="230"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="236"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+</ports>
+<times srtt="8346" rttvar="259" to="100000"/>
+</host>
+<runstats><finished time="1755405170" timestr="Sun Aug 17 00:32:50 2025" summary="Nmap done at Sun Aug 17 00:32:50 2025; 1 IP address (1 host up) scanned in 2.31 seconds" elapsed="2.31" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

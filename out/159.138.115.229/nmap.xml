@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:14:47 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 143 -oX out/159.138.115.229/nmap.xml 159.138.115.229 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 143 -oX out/159.138.115.229/nmap.xml 159.138.115.229" start="1755404087" startstr="Sun Aug 17 00:14:47 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="143"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755404087" endtime="1755404087"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="159.138.115.229" addrtype="ipv4"/>
+<hostnames>
+<hostname name="cpanel1.neurocloud.cl" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="imap" method="table" conf="3"/></port>
+</ports>
+<times srtt="5180" rttvar="5180" to="100000"/>
+</host>
+<runstats><finished time="1755404088" timestr="Sun Aug 17 00:14:48 2025" summary="Nmap done at Sun Aug 17 00:14:48 2025; 1 IP address (1 host up) scanned in 0.55 seconds" elapsed="0.55" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:13:09 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 39,107,126,165 -oX out/157.185.186.31/nmap.xml 157.185.186.31 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 39,107,126,165 -oX out/157.185.186.31/nmap.xml 157.185.186.31" start="1755403989" startstr="Sun Aug 17 00:13:09 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="4" services="39,107,126,165"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755403990" endtime="1755403991"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.31" addrtype="ipv4"/>
+<hostnames>
+<hostname name="hdt.qtlcname.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="39"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="rlp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="107"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="rtelnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="126"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="unitary" method="table" conf="3"/></port>
+<port protocol="tcp" portid="165"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-courier" method="table" conf="3"/></port>
+</ports>
+<times srtt="6735" rttvar="4177" to="100000"/>
+</host>
+<runstats><finished time="1755403991" timestr="Sun Aug 17 00:13:11 2025" summary="Nmap done at Sun Aug 17 00:13:11 2025; 1 IP address (1 host up) scanned in 1.58 seconds" elapsed="1.58" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

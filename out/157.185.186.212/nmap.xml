@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:03:08 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 31,32,33,42,61,135,150,198,202,232,235 -oX out/157.185.186.212/nmap.xml 157.185.186.212 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 31,32,33,42,61,135,150,198,202,232,235 -oX out/157.185.186.212/nmap.xml 157.185.186.212" start="1755446588" startstr="Sun Aug 17 12:03:08 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="11" services="31-33,42,61,135,150,198,202,232,235"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446588" endtime="1755446589"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.212" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="31"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="msg-auth" method="table" conf="3"/></port>
+<port protocol="tcp" portid="32"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="33"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dsp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="42"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="nameserver" method="table" conf="3"/></port>
+<port protocol="tcp" portid="61"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ni-mail" method="table" conf="3"/></port>
+<port protocol="tcp" portid="135"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="150"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="sql-net" method="table" conf="3"/></port>
+<port protocol="tcp" portid="198"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dls-mon" method="table" conf="3"/></port>
+<port protocol="tcp" portid="202"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="at-nbp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="232"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="235"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+</ports>
+<times srtt="7496" rttvar="3552" to="100000"/>
+</host>
+<runstats><finished time="1755446590" timestr="Sun Aug 17 12:03:10 2025" summary="Nmap done at Sun Aug 17 12:03:10 2025; 1 IP address (1 host up) scanned in 1.90 seconds" elapsed="1.90" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

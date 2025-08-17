@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 11:57:48 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 25,29,40,76,83,96,106,116 -oX out/157.185.186.124/nmap.xml 157.185.186.124 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 25,29,40,76,83,96,106,116 -oX out/157.185.186.124/nmap.xml 157.185.186.124" start="1755446268" startstr="Sun Aug 17 11:57:48 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="8" services="25,29,40,76,83,96,106,116"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446269" endtime="1755446271"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.124" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="29"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="msg-icp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="40"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="76"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="deos" method="table" conf="3"/></port>
+<port protocol="tcp" portid="83"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="mit-ml-dev" method="table" conf="3"/></port>
+<port protocol="tcp" portid="96"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="dixie" method="table" conf="3"/></port>
+<port protocol="tcp" portid="106"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="pop3pw" method="table" conf="3"/></port>
+<port protocol="tcp" portid="116"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ansanotify" method="table" conf="3"/></port>
+</ports>
+<times srtt="13624" rttvar="10249" to="100000"/>
+</host>
+<runstats><finished time="1755446271" timestr="Sun Aug 17 11:57:51 2025" summary="Nmap done at Sun Aug 17 11:57:51 2025; 1 IP address (1 host up) scanned in 2.98 seconds" elapsed="2.98" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

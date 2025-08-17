@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:30:29 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 32,35,54,71,72,106,113,195 -oX out/157.185.186.164/nmap.xml 157.185.186.164 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 32,35,54,71,72,106,113,195 -oX out/157.185.186.164/nmap.xml 157.185.186.164" start="1755405029" startstr="Sun Aug 17 00:30:29 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="8" services="32,35,54,71-72,106,113,195"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755405030" endtime="1755405031"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.164" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="32"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="35"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-print" method="table" conf="3"/></port>
+<port protocol="tcp" portid="54"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-ch" method="table" conf="3"/></port>
+<port protocol="tcp" portid="71"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netrjs-1" method="table" conf="3"/></port>
+<port protocol="tcp" portid="72"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netrjs-2" method="table" conf="3"/></port>
+<port protocol="tcp" portid="106"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="pop3pw" method="table" conf="3"/></port>
+<port protocol="tcp" portid="113"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ident" method="table" conf="3"/></port>
+<port protocol="tcp" portid="195"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dn6-nlm-aud" method="table" conf="3"/></port>
+</ports>
+<times srtt="7996" rttvar="1183" to="100000"/>
+</host>
+<runstats><finished time="1755405031" timestr="Sun Aug 17 00:30:31 2025" summary="Nmap done at Sun Aug 17 00:30:31 2025; 1 IP address (1 host up) scanned in 1.79 seconds" elapsed="1.79" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

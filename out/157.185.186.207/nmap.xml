@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:02:38 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 26,29,40,53,59,71,74,77,78,103,110,132,157,169,183,192,200,214,223,224,295,477,481,489,702,853,919,1103,1197,1508 -oX out/157.185.186.207/nmap.xml 157.185.186.207 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 26,29,40,53,59,71,74,77,78,103,110,132,157,169,183,192,200,214,223,224,295,477,481,489,702,853,919,1103,1197,1508 -oX out/157.185.186.207/nmap.xml 157.185.186.207" start="1755446558" startstr="Sun Aug 17 12:02:38 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="30" services="26,29,40,53,59,71,74,77-78,103,110,132,157,169,183,192,200,214,223-224,295,477,481,489,702,853,919,1103,1197,1508"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446558" endtime="1755446559"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.207" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="30">
+<extrareasons reason="host-unreach" count="30" proto="tcp" ports="26,29,40,53,59,71,74,77-78,103,110,132,157,169,183,192,200,214,223-224,295,477,481,489,702,853,919,1103,1197,1508"/>
+</extraports>
+</ports>
+<times srtt="8049" rttvar="384" to="100000"/>
+</host>
+<runstats><finished time="1755446560" timestr="Sun Aug 17 12:02:40 2025" summary="Nmap done at Sun Aug 17 12:02:40 2025; 1 IP address (1 host up) scanned in 1.89 seconds" elapsed="1.89" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

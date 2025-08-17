@@ -1,0 +1,40 @@
+[package]
+name = "shodan-pipeline"
+version = "0.1.0"
+edition = "2024"
+description = "Pipeline: keywords -> Shodan -> RustScan -> Nmap -> dynamic tools"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+# Errores, CLI y utilidades
+anyhow = "1"
+clap = { version = "4", features = ["derive", "env"] }
+regex = "1"
+shell-words = "1.1"
+
+# HTTP cliente y parsing
+reqwest = { version = "0.12", default-features = false, features = ["json", "gzip", "brotli", "deflate", "rustls-tls", "http2"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_yaml = "0.9.33"
+urlencoding = "2"
+
+# Async runtime y procesos
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "process", "time", "fs", "io-util", "sync", "signal"] }
+
+# XML (Nmap), progreso y DNS
+quick-xml = "0.38.1"
+indicatif = { version = "0.18", features = ["tokio"] }
+trust-dns-resolver = "0.23"
+libc = "0.2"
+
+# Export de resultados
+csv = "1"
+directories = "5"
+
+[profile.release]
+codegen-units = 1
+lto = "thin"
+opt-level = "z"   # Cambia a "3" si prefieres máxima perf en vez de binario pequeño
+strip = "symbols"
+panic = "abort"

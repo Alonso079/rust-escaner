@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 11:57:44 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 10,21,28,29,34,35,38,47,60,62,64,71,72,74,79,88,93 -oX out/157.185.186.123/nmap.xml 157.185.186.123 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 10,21,28,29,34,35,38,47,60,62,64,71,72,74,79,88,93 -oX out/157.185.186.123/nmap.xml 157.185.186.123" start="1755446264" startstr="Sun Aug 17 11:57:44 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="17" services="10,21,28-29,34-35,38,47,60,62,64,71-72,74,79,88,93"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446265" endtime="1755446268"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.123" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="10"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="28"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="29"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="msg-icp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="34"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="35"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="38"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="47"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="60"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="62"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="acas" method="table" conf="3"/></port>
+<port protocol="tcp" portid="64"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="71"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="72"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="74"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="79"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="finger" method="table" conf="3"/></port>
+<port protocol="tcp" portid="88"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="kerberos-sec" method="table" conf="3"/></port>
+<port protocol="tcp" portid="93"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dcp" method="table" conf="3"/></port>
+</ports>
+<times srtt="327221" rttvar="157399" to="956817"/>
+</host>
+<runstats><finished time="1755446268" timestr="Sun Aug 17 11:57:48 2025" summary="Nmap done at Sun Aug 17 11:57:48 2025; 1 IP address (1 host up) scanned in 3.56 seconds" elapsed="3.56" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

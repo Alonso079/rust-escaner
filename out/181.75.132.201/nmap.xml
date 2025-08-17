@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:23:56 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 19,20,27,34,45,52,53,62,63,78,909,915,917,918,922,929,940 -oX out/181.75.132.201/nmap.xml 181.75.132.201 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 19,20,27,34,45,52,53,62,63,78,909,915,917,918,922,929,940 -oX out/181.75.132.201/nmap.xml 181.75.132.201" start="1755404636" startstr="Sun Aug 17 00:23:56 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="17" services="19-20,27,34,45,52-53,62-63,78,909,915,917-918,922,929,940"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755404637" endtime="1755404637"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="181.75.132.201" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="19"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="chargen" method="table" conf="3"/></port>
+<port protocol="tcp" portid="20"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ftp-data" method="table" conf="3"/></port>
+<port protocol="tcp" portid="27"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="nsw-fe" method="table" conf="3"/></port>
+<port protocol="tcp" portid="34"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="45"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mpm" method="table" conf="3"/></port>
+<port protocol="tcp" portid="52"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-time" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="62"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="acas" method="table" conf="3"/></port>
+<port protocol="tcp" portid="63"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="via-ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="78"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="vettcp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="909"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="915"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="rift-ties" method="table" conf="3"/></port>
+<port protocol="tcp" portid="917"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="918"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="922"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="929"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="940"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+</ports>
+<times srtt="8276" rttvar="2045" to="100000"/>
+</host>
+<runstats><finished time="1755404637" timestr="Sun Aug 17 00:23:57 2025" summary="Nmap done at Sun Aug 17 00:23:57 2025; 1 IP address (1 host up) scanned in 0.72 seconds" elapsed="0.72" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

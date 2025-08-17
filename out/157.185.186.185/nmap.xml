@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:01:27 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 13,21,22,28,32,33,34,35,39,43,44,51,56,66,78,80,93,94,95 -oX out/157.185.186.185/nmap.xml 157.185.186.185 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 13,21,22,28,32,33,34,35,39,43,44,51,56,66,78,80,93,94,95 -oX out/157.185.186.185/nmap.xml 157.185.186.185" start="1755446487" startstr="Sun Aug 17 12:01:27 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="19" services="13,21-22,28,32-35,39,43-44,51,56,66,78,80,93-95"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446488" endtime="1755446490"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.185" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="13"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="22"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="28"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="32"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="33"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dsp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="34"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="35"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-print" method="table" conf="3"/></port>
+<port protocol="tcp" portid="39"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="rlp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="43"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="whois" method="table" conf="3"/></port>
+<port protocol="tcp" portid="44"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mpm-flags" method="table" conf="3"/></port>
+<port protocol="tcp" portid="51"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="la-maint" method="table" conf="3"/></port>
+<port protocol="tcp" portid="56"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-auth" method="table" conf="3"/></port>
+<port protocol="tcp" portid="66"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="sqlnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="78"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="vettcp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="93"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dcp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="94"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="objcall" method="table" conf="3"/></port>
+<port protocol="tcp" portid="95"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="supdup" method="table" conf="3"/></port>
+</ports>
+<times srtt="112518" rttvar="180465" to="834378"/>
+</host>
+<runstats><finished time="1755446490" timestr="Sun Aug 17 12:01:30 2025" summary="Nmap done at Sun Aug 17 12:01:30 2025; 1 IP address (1 host up) scanned in 3.55 seconds" elapsed="3.55" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

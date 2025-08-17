@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:34:58 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 35,54,57,62,65,75,81,82,93,94,97,100,112 -oX out/157.185.186.46/nmap.xml 157.185.186.46 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 35,54,57,62,65,75,81,82,93,94,97,100,112 -oX out/157.185.186.46/nmap.xml 157.185.186.46" start="1755405298" startstr="Sun Aug 17 00:34:58 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="13" services="35,54,57,62,65,75,81-82,93-94,97,100,112"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755405299" endtime="1755405302"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.46" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="35"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="54"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-ch" method="table" conf="3"/></port>
+<port protocol="tcp" portid="57"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-term" method="table" conf="3"/></port>
+<port protocol="tcp" portid="62"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="acas" method="table" conf="3"/></port>
+<port protocol="tcp" portid="65"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="75"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-dial" method="table" conf="3"/></port>
+<port protocol="tcp" portid="81"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="hosts2-ns" method="table" conf="3"/></port>
+<port protocol="tcp" portid="82"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xfer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="93"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dcp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="94"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="objcall" method="table" conf="3"/></port>
+<port protocol="tcp" portid="97"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="swift-rvf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="100"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="112"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mcidas" method="table" conf="3"/></port>
+</ports>
+<times srtt="133589" rttvar="200859" to="937025"/>
+</host>
+<runstats><finished time="1755405302" timestr="Sun Aug 17 00:35:02 2025" summary="Nmap done at Sun Aug 17 00:35:02 2025; 1 IP address (1 host up) scanned in 3.43 seconds" elapsed="3.43" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

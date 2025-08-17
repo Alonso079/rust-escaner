@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:28:21 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 15,27,44,61,66,97,102,117,131,136,159,164,188,203,208,222,241,245,280,423,461,516,597,652 -oX out/157.185.186.120/nmap.xml 157.185.186.120 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 15,27,44,61,66,97,102,117,131,136,159,164,188,203,208,222,241,245,280,423,461,516,597,652 -oX out/157.185.186.120/nmap.xml 157.185.186.120" start="1755404901" startstr="Sun Aug 17 00:28:21 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="24" services="15,27,44,61,66,97,102,117,131,136,159,164,188,203,208,222,241,245,280,423,461,516,597,652"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755404902" endtime="1755404904"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.120" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="15"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netstat" method="table" conf="3"/></port>
+<port protocol="tcp" portid="27"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="nsw-fe" method="table" conf="3"/></port>
+<port protocol="tcp" portid="44"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mpm-flags" method="table" conf="3"/></port>
+<port protocol="tcp" portid="61"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ni-mail" method="table" conf="3"/></port>
+<port protocol="tcp" portid="66"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="sqlnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="97"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="swift-rvf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="102"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="117"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="uucp-path" method="table" conf="3"/></port>
+<port protocol="tcp" portid="131"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="cisco-tna" method="table" conf="3"/></port>
+<port protocol="tcp" portid="136"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="159"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="nss-routing" method="table" conf="3"/></port>
+<port protocol="tcp" portid="164"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="cmip-agent" method="table" conf="3"/></port>
+<port protocol="tcp" portid="188"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mumps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="203"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="at-3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="208"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="222"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="241"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="245"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="link" method="table" conf="3"/></port>
+<port protocol="tcp" portid="280"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="http-mgmt" method="table" conf="3"/></port>
+<port protocol="tcp" portid="423"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="opc-job-start" method="table" conf="3"/></port>
+<port protocol="tcp" portid="461"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="datasurfsrv" method="table" conf="3"/></port>
+<port protocol="tcp" portid="516"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="597"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ptcnameservice" method="table" conf="3"/></port>
+<port protocol="tcp" portid="652"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="hello-port" method="table" conf="3"/></port>
+</ports>
+<times srtt="175210" rttvar="195258" to="956242"/>
+</host>
+<runstats><finished time="1755404904" timestr="Sun Aug 17 00:28:24 2025" summary="Nmap done at Sun Aug 17 00:28:24 2025; 1 IP address (1 host up) scanned in 3.02 seconds" elapsed="3.02" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

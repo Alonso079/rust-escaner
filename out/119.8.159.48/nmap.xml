@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:07:34 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 80,81,82,83,85,86,87,88,89,90,97,133,134,140,141,144,151,280,447,1000,1102,1688 -oX out/119.8.159.48/nmap.xml 119.8.159.48 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 80,81,82,83,85,86,87,88,89,90,97,133,134,140,141,144,151,280,447,1000,1102,1688 -oX out/119.8.159.48/nmap.xml 119.8.159.48" start="1755403654" startstr="Sun Aug 17 00:07:34 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="22" services="80-83,85-90,97,133-134,140-141,144,151,280,447,1000,1102,1688"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755403655" endtime="1755403656"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="119.8.159.48" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="81"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="hosts2-ns" method="table" conf="3"/></port>
+<port protocol="tcp" portid="82"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xfer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="83"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mit-ml-dev" method="table" conf="3"/></port>
+<port protocol="tcp" portid="85"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mit-ml-dev" method="table" conf="3"/></port>
+<port protocol="tcp" portid="86"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="87"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-term-l" method="table" conf="3"/></port>
+<port protocol="tcp" portid="88"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="kerberos-sec" method="table" conf="3"/></port>
+<port protocol="tcp" portid="89"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="su-mit-tg" method="table" conf="3"/></port>
+<port protocol="tcp" portid="90"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dnsix" method="table" conf="3"/></port>
+<port protocol="tcp" portid="97"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="swift-rvf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="133"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="statsrv" method="table" conf="3"/></port>
+<port protocol="tcp" portid="134"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ingres-net" method="table" conf="3"/></port>
+<port protocol="tcp" portid="140"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="emfis-data" method="table" conf="3"/></port>
+<port protocol="tcp" portid="141"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="emfis-cntl" method="table" conf="3"/></port>
+<port protocol="tcp" portid="144"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="news" method="table" conf="3"/></port>
+<port protocol="tcp" portid="151"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="280"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="447"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ddm-dfm" method="table" conf="3"/></port>
+<port protocol="tcp" portid="1000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="1102"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="adobeserver-1" method="table" conf="3"/></port>
+<port protocol="tcp" portid="1688"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="nsjtp-data" method="table" conf="3"/></port>
+</ports>
+<times srtt="8733" rttvar="1138" to="100000"/>
+</host>
+<runstats><finished time="1755403656" timestr="Sun Aug 17 00:07:36 2025" summary="Nmap done at Sun Aug 17 00:07:36 2025; 1 IP address (1 host up) scanned in 1.75 seconds" elapsed="1.75" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

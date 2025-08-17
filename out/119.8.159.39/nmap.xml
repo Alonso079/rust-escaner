@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:18:27 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 84 -oX out/119.8.159.39/nmap.xml 119.8.159.39 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 84 -oX out/119.8.159.39/nmap.xml 119.8.159.39" start="1755404307" startstr="Sun Aug 17 00:18:27 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="84"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755404307" endtime="1755404307"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="119.8.159.39" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="84"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ctf" method="table" conf="3"/></port>
+</ports>
+<times srtt="15140" rttvar="15140" to="100000"/>
+</host>
+<runstats><finished time="1755404307" timestr="Sun Aug 17 00:18:27 2025" summary="Nmap done at Sun Aug 17 00:18:27 2025; 1 IP address (1 host up) scanned in 0.70 seconds" elapsed="0.70" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:14:16 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 25,57,58,66,74 -oX out/157.185.186.76/nmap.xml 157.185.186.76 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 25,57,58,66,74 -oX out/157.185.186.76/nmap.xml 157.185.186.76" start="1755404056" startstr="Sun Aug 17 00:14:16 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="5" services="25,57-58,66,74"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755404057" endtime="1755404057"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.76" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="57"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-term" method="table" conf="3"/></port>
+<port protocol="tcp" portid="58"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-mail" method="table" conf="3"/></port>
+<port protocol="tcp" portid="66"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="sqlnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="74"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netrjs-4" method="table" conf="3"/></port>
+</ports>
+<times srtt="8456" rttvar="2876" to="100000"/>
+</host>
+<runstats><finished time="1755404057" timestr="Sun Aug 17 00:14:17 2025" summary="Nmap done at Sun Aug 17 00:14:17 2025; 1 IP address (1 host up) scanned in 1.17 seconds" elapsed="1.17" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:33:57 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 31,54,62,98,105,131,136,143,151,153,155,184,194,216,219,221,230,238,245 -oX out/157.185.186.249/nmap.xml 157.185.186.249 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 31,54,62,98,105,131,136,143,151,153,155,184,194,216,219,221,230,238,245 -oX out/157.185.186.249/nmap.xml 157.185.186.249" start="1755405237" startstr="Sun Aug 17 00:33:57 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="19" services="31,54,62,98,105,131,136,143,151,153,155,184,194,216,219,221,230,238,245"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755405238" endtime="1755405239"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.249" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="31"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="54"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-ch" method="table" conf="3"/></port>
+<port protocol="tcp" portid="62"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="acas" method="table" conf="3"/></port>
+<port protocol="tcp" portid="98"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="linuxconf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="105"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="csnet-ns" method="table" conf="3"/></port>
+<port protocol="tcp" portid="131"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="cisco-tna" method="table" conf="3"/></port>
+<port protocol="tcp" portid="136"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="profile" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="151"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="hems" method="table" conf="3"/></port>
+<port protocol="tcp" portid="153"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="sgmp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="155"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netsc-dev" method="table" conf="3"/></port>
+<port protocol="tcp" portid="184"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ocserver" method="table" conf="3"/></port>
+<port protocol="tcp" portid="194"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="irc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="216"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="atls" method="table" conf="3"/></port>
+<port protocol="tcp" portid="219"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="uarps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="221"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="fln-spx" method="table" conf="3"/></port>
+<port protocol="tcp" portid="230"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="238"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="245"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="link" method="table" conf="3"/></port>
+</ports>
+<times srtt="95244" rttvar="154029" to="711360"/>
+</host>
+<runstats><finished time="1755405239" timestr="Sun Aug 17 00:33:59 2025" summary="Nmap done at Sun Aug 17 00:33:59 2025; 1 IP address (1 host up) scanned in 1.82 seconds" elapsed="1.82" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

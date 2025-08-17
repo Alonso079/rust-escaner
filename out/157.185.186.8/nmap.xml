@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:07:14 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 56,91,108,110 -oX out/157.185.186.8/nmap.xml 157.185.186.8 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 56,91,108,110 -oX out/157.185.186.8/nmap.xml 157.185.186.8" start="1755446834" startstr="Sun Aug 17 12:07:14 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="4" services="56,91,108,110"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446835" endtime="1755446836"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.8" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="56"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-auth" method="table" conf="3"/></port>
+<port protocol="tcp" portid="91"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mit-dov" method="table" conf="3"/></port>
+<port protocol="tcp" portid="108"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="snagas" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="pop3" method="table" conf="3"/></port>
+</ports>
+<times srtt="24379" rttvar="14765" to="100000"/>
+</host>
+<runstats><finished time="1755446836" timestr="Sun Aug 17 12:07:16 2025" summary="Nmap done at Sun Aug 17 12:07:16 2025; 1 IP address (1 host up) scanned in 2.43 seconds" elapsed="2.43" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

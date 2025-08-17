@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:10:14 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 1,11,16,29,52,53,62,63,76,126,151,236,294,1278,1284,1343,1395,1451 -oX out/185.9.3.10/nmap.xml 185.9.3.10 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 1,11,16,29,52,53,62,63,76,126,151,236,294,1278,1284,1343,1395,1451 -oX out/185.9.3.10/nmap.xml 185.9.3.10" start="1755447014" startstr="Sun Aug 17 12:10:14 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="18" services="1,11,16,29,52-53,62-63,76,126,151,236,294,1278,1284,1343,1395,1451"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755447015" endtime="1755447016"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="185.9.3.10" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="1"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="tcpmux" method="table" conf="3"/></port>
+<port protocol="tcp" portid="11"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="systat" method="table" conf="3"/></port>
+<port protocol="tcp" portid="16"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="29"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="msg-icp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="52"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-time" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="62"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="acas" method="table" conf="3"/></port>
+<port protocol="tcp" portid="63"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="via-ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="76"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="deos" method="table" conf="3"/></port>
+<port protocol="tcp" portid="126"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="unitary" method="table" conf="3"/></port>
+<port protocol="tcp" portid="151"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="hems" method="table" conf="3"/></port>
+<port protocol="tcp" portid="236"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="294"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="1278"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dellwebadmin-1" method="table" conf="3"/></port>
+<port protocol="tcp" portid="1284"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="iee-qfx" method="table" conf="3"/></port>
+<port protocol="tcp" portid="1343"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="re101" method="table" conf="3"/></port>
+<port protocol="tcp" portid="1395"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="iclpv-wsm" method="table" conf="3"/></port>
+<port protocol="tcp" portid="1451"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="infoman" method="table" conf="3"/></port>
+</ports>
+<times srtt="14388" rttvar="7874" to="100000"/>
+</host>
+<runstats><finished time="1755447016" timestr="Sun Aug 17 12:10:16 2025" summary="Nmap done at Sun Aug 17 12:10:16 2025; 1 IP address (1 host up) scanned in 1.89 seconds" elapsed="1.89" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

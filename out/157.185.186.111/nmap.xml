@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 11:56:53 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 68,79,93,103,107,118,172,183,226,235,239,10468,10522,10621,11196 -oX out/157.185.186.111/nmap.xml 157.185.186.111 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 68,79,93,103,107,118,172,183,226,235,239,10468,10522,10621,11196 -oX out/157.185.186.111/nmap.xml 157.185.186.111" start="1755446213" startstr="Sun Aug 17 11:56:53 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="15" services="68,79,93,103,107,118,172,183,226,235,239,10468,10522,10621,11196"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446214" endtime="1755446215"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.111" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="68"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="dhcpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="79"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="finger" method="table" conf="3"/></port>
+<port protocol="tcp" portid="93"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dcp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="103"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="gppitnp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="107"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="rtelnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="118"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="sqlserv" method="table" conf="3"/></port>
+<port protocol="tcp" portid="172"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="cl-1" method="table" conf="3"/></port>
+<port protocol="tcp" portid="183"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ocbinder" method="table" conf="3"/></port>
+<port protocol="tcp" portid="226"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="235"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="239"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="10468"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="10522"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="10621"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="11196"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+</ports>
+<times srtt="13178" rttvar="4685" to="100000"/>
+</host>
+<runstats><finished time="1755446215" timestr="Sun Aug 17 11:56:55 2025" summary="Nmap done at Sun Aug 17 11:56:55 2025; 1 IP address (1 host up) scanned in 2.47 seconds" elapsed="2.47" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

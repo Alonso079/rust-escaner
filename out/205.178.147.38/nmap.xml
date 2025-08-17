@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:42:17 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 8390,8437,8604 -oX out/205.178.147.38/nmap.xml 205.178.147.38 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 8390,8437,8604 -oX out/205.178.147.38/nmap.xml 205.178.147.38" start="1755405737" startstr="Sun Aug 17 00:42:17 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="3" services="8390,8437,8604"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755405738" endtime="1755405739"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="205.178.147.38" addrtype="ipv4"/>
+<hostnames>
+<hostname name="intelligenxia.eyc.cl" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8390"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="8437"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="8604"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+</ports>
+<times srtt="7329" rttvar="4282" to="100000"/>
+</host>
+<runstats><finished time="1755405739" timestr="Sun Aug 17 00:42:19 2025" summary="Nmap done at Sun Aug 17 00:42:19 2025; 1 IP address (1 host up) scanned in 1.15 seconds" elapsed="1.15" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

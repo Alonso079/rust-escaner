@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sat Aug 16 23:47:41 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 5 -&#45;max-retries 2 -p 84,1444,3031,4132,4444 -oX out/168.235.197.235/nmap.xml 168.235.197.235 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 5 -&#45;max-retries 2 -p 84,1444,3031,4132,4444 -oX out/168.235.197.235/nmap.xml 168.235.197.235" start="1755402461" startstr="Sat Aug 16 23:47:41 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="5" services="84,1444,3031,4132,4444"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755402462" endtime="1755402462"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="168.235.197.235" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="84"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ctf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="1444"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="marcam-lm" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3031"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="eppc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="4132"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="nuts_dem" method="table" conf="3"/></port>
+<port protocol="tcp" portid="4444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="8354" rttvar="3029" to="100000"/>
+</host>
+<runstats><finished time="1755402462" timestr="Sat Aug 16 23:47:42 2025" summary="Nmap done at Sat Aug 16 23:47:42 2025; 1 IP address (1 host up) scanned in 1.71 seconds" elapsed="1.71" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

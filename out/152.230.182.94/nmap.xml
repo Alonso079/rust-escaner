@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 11:55:22 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 27,34,42,49,82,90,115,117,120,130,146,158,169,173,201,207,213,214,226,232,243,248,291,311,314,352,371,378,413,415,456,461,476,489,497,504,790,2041,2051,2229,2236,2291,2319,2325,2439,2623,2626,2647,2658,2688,2803,2884,3022,3153,3164,3171,3192,3410,3424,3462,3718,4014,4231,4511 -oX out/152.230.182.94/nmap.xml 152.230.182.94 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 27,34,42,49,82,90,115,117,120,130,146,158,169,173,201,207,213,214,226,232,243,248,291,311,314,352,371,378,413,415,456,461,476,489,497,504,790,2041,2051,2229,2236,2291,2319,2325,2439,2623,2626,2647,2658,2688,2803,2884,3022,3153,3164,3171,3192,3410,3424,3462,3718,4014,4231,4511 -oX out/152.230.182.94/nmap.xml 152.230.182.94" start="1755446122" startstr="Sun Aug 17 11:55:22 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="64" services="27,34,42,49,82,90,115,117,120,130,146,158,169,173,201,207,213-214,226,232,243,248,291,311,314,352,371,378,413,415,456,461,476,489,497,504,790,2041,2051,2229,2236,2291,2319,2325,2439,2623,2626,2647,2658,2688,2803,2884,3022,3153,3164,3171,3192,3410,3424,3462,3718,4014,4231,4511"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446122" endtime="1755446129"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="152.230.182.94" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="57">
+<extrareasons reason="host-unreach" count="57" proto="tcp" ports="27,34,42,49,82,115,117,120,146,158,169,173,201,207,213-214,226,232,248,291,311,314,352,371,415,456,461,476,489,504,790,2041,2051,2229,2236,2291,2319,2439,2623,2626,2647,2658,2688,2803,2884,3022,3153,3164,3171,3192,3410,3424,3462,3718,4014,4231,4511"/>
+</extraports>
+<port protocol="tcp" portid="90"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="dnsix" method="table" conf="3"/></port>
+<port protocol="tcp" portid="130"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="243"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="378"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="413"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="497"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="2325"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="12378" rttvar="601" to="100000"/>
+</host>
+<runstats><finished time="1755446129" timestr="Sun Aug 17 11:55:29 2025" summary="Nmap done at Sun Aug 17 11:55:29 2025; 1 IP address (1 host up) scanned in 7.00 seconds" elapsed="7.00" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

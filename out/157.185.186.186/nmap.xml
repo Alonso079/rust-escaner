@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:01:53 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 34,77,95,98,117,120,130,139,152,165,170,215,219 -oX out/157.185.186.186/nmap.xml 157.185.186.186 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 34,77,95,98,117,120,130,139,152,165,170,215,219 -oX out/157.185.186.186/nmap.xml 157.185.186.186" start="1755446513" startstr="Sun Aug 17 12:01:53 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="13" services="34,77,95,98,117,120,130,139,152,165,170,215,219"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446514" endtime="1755446515"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.186" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="34"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="77"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-rje" method="table" conf="3"/></port>
+<port protocol="tcp" portid="95"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="supdup" method="table" conf="3"/></port>
+<port protocol="tcp" portid="98"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="linuxconf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="117"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="uucp-path" method="table" conf="3"/></port>
+<port protocol="tcp" portid="120"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="cfdptkt" method="table" conf="3"/></port>
+<port protocol="tcp" portid="130"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="cisco-fna" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="152"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="bftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="165"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-courier" method="table" conf="3"/></port>
+<port protocol="tcp" portid="170"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="print-srv" method="table" conf="3"/></port>
+<port protocol="tcp" portid="215"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="219"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="uarps" method="table" conf="3"/></port>
+</ports>
+<times srtt="48549" rttvar="75945" to="352329"/>
+</host>
+<runstats><finished time="1755446515" timestr="Sun Aug 17 12:01:55 2025" summary="Nmap done at Sun Aug 17 12:01:55 2025; 1 IP address (1 host up) scanned in 1.92 seconds" elapsed="1.92" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

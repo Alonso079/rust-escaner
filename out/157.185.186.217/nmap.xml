@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:12:30 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 20,26,28,39,40,45,54,56,64,74,83,87,108,110,124,147,170,173,174 -oX out/157.185.186.217/nmap.xml 157.185.186.217 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 20,26,28,39,40,45,54,56,64,74,83,87,108,110,124,147,170,173,174 -oX out/157.185.186.217/nmap.xml 157.185.186.217" start="1755403950" startstr="Sun Aug 17 00:12:30 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="19" services="20,26,28,39-40,45,54,56,64,74,83,87,108,110,124,147,170,173-174"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755403951" endtime="1755403953"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.217" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="20"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ftp-data" method="table" conf="3"/></port>
+<port protocol="tcp" portid="26"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="rsftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="28"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="39"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="rlp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="40"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="45"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="54"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-ch" method="table" conf="3"/></port>
+<port protocol="tcp" portid="56"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-auth" method="table" conf="3"/></port>
+<port protocol="tcp" portid="64"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="covia" method="table" conf="3"/></port>
+<port protocol="tcp" portid="74"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="83"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mit-ml-dev" method="table" conf="3"/></port>
+<port protocol="tcp" portid="87"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="108"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="snagas" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="124"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ansatrader" method="table" conf="3"/></port>
+<port protocol="tcp" portid="147"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="iso-ip" method="table" conf="3"/></port>
+<port protocol="tcp" portid="170"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="173"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xyplex-mux" method="table" conf="3"/></port>
+<port protocol="tcp" portid="174"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="220096" rttvar="229330" to="1137416"/>
+</host>
+<runstats><finished time="1755403953" timestr="Sun Aug 17 00:12:33 2025" summary="Nmap done at Sun Aug 17 00:12:33 2025; 1 IP address (1 host up) scanned in 2.97 seconds" elapsed="2.97" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

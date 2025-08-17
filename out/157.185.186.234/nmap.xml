@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:03:47 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 35,50,72,76,118 -oX out/157.185.186.234/nmap.xml 157.185.186.234 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 35,50,72,76,118 -oX out/157.185.186.234/nmap.xml 157.185.186.234" start="1755446627" startstr="Sun Aug 17 12:03:47 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="5" services="35,50,72,76,118"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446628" endtime="1755446629"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.234" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="35"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-print" method="table" conf="3"/></port>
+<port protocol="tcp" portid="50"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="re-mail-ck" method="table" conf="3"/></port>
+<port protocol="tcp" portid="72"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netrjs-2" method="table" conf="3"/></port>
+<port protocol="tcp" portid="76"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="deos" method="table" conf="3"/></port>
+<port protocol="tcp" portid="118"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="sqlserv" method="table" conf="3"/></port>
+</ports>
+<times srtt="8079" rttvar="2604" to="100000"/>
+</host>
+<runstats><finished time="1755446629" timestr="Sun Aug 17 12:03:49 2025" summary="Nmap done at Sun Aug 17 12:03:49 2025; 1 IP address (1 host up) scanned in 1.89 seconds" elapsed="1.89" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

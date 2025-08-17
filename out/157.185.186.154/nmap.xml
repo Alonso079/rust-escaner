@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:00:05 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 19,46,53,68,79,83,98,99,105,123,125,133,144,152,210,211,218,479,639,1028,1211,1233,1443,1450,1994,2214,2346,2411,2567,2659,3061,3327,3356,3730,3923,4169 -oX out/157.185.186.154/nmap.xml 157.185.186.154 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 19,46,53,68,79,83,98,99,105,123,125,133,144,152,210,211,218,479,639,1028,1211,1233,1443,1450,1994,2214,2346,2411,2567,2659,3061,3327,3356,3730,3923,4169 -oX out/157.185.186.154/nmap.xml 157.185.186.154" start="1755446405" startstr="Sun Aug 17 12:00:05 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="36" services="19,46,53,68,79,83,98-99,105,123,125,133,144,152,210-211,218,479,639,1028,1211,1233,1443,1450,1994,2214,2346,2411,2567,2659,3061,3327,3356,3730,3923,4169"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446406" endtime="1755446408"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.154" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="34">
+<extrareasons reason="host-unreach" count="34" proto="tcp" ports="19,46,53,68,83,98-99,123,125,133,144,152,210-211,218,479,639,1028,1211,1233,1443,1450,1994,2214,2346,2411,2567,2659,3061,3327,3356,3730,3923,4169"/>
+</extraports>
+<port protocol="tcp" portid="79"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="105"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="62246" rttvar="97054" to="450462"/>
+</host>
+<runstats><finished time="1755446408" timestr="Sun Aug 17 12:00:08 2025" summary="Nmap done at Sun Aug 17 12:00:08 2025; 1 IP address (1 host up) scanned in 2.42 seconds" elapsed="2.42" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:00:45 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 3,49,53,60,61,69,85,122,139,143,163,169,171,188,225 -oX out/157.185.186.169/nmap.xml 157.185.186.169 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 3,49,53,60,61,69,85,122,139,143,163,169,171,188,225 -oX out/157.185.186.169/nmap.xml 157.185.186.169" start="1755446445" startstr="Sun Aug 17 12:00:45 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="15" services="3,49,53,60-61,69,85,122,139,143,163,169,171,188,225"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446446" endtime="1755446447"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.169" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="3"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="compressnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="tacacs" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="60"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="61"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ni-mail" method="table" conf="3"/></port>
+<port protocol="tcp" portid="69"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="85"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mit-ml-dev" method="table" conf="3"/></port>
+<port protocol="tcp" portid="122"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="smakynet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="163"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="cmip-man" method="table" conf="3"/></port>
+<port protocol="tcp" portid="169"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="send" method="table" conf="3"/></port>
+<port protocol="tcp" portid="171"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="188"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="225"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="109985" rttvar="159299" to="747181"/>
+</host>
+<runstats><finished time="1755446447" timestr="Sun Aug 17 12:00:47 2025" summary="Nmap done at Sun Aug 17 12:00:47 2025; 1 IP address (1 host up) scanned in 1.91 seconds" elapsed="1.91" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

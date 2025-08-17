@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:29:41 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 47,48,91,93,97,99,50543,50574,50582,50657,50710,50820,51030,51571,52383,52587,52632,52757,52769 -oX out/157.185.186.138/nmap.xml 157.185.186.138 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 47,48,91,93,97,99,50543,50574,50582,50657,50710,50820,51030,51571,52383,52587,52632,52757,52769 -oX out/157.185.186.138/nmap.xml 157.185.186.138" start="1755404981" startstr="Sun Aug 17 00:29:41 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="19" services="47-48,91,93,97,99,50543,50574,50582,50657,50710,50820,51030,51571,52383,52587,52632,52757,52769"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755404981" endtime="1755404983"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.138" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="47"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ni-ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="48"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="auditd" method="table" conf="3"/></port>
+<port protocol="tcp" portid="91"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mit-dov" method="table" conf="3"/></port>
+<port protocol="tcp" portid="93"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dcp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="97"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="swift-rvf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="99"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="metagram" method="table" conf="3"/></port>
+<port protocol="tcp" portid="50543"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="50574"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="50582"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="50657"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="50710"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="50820"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="51030"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="51571"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="52383"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="52587"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="52632"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="52757"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="52769"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+</ports>
+<times srtt="80420" rttvar="123944" to="576196"/>
+</host>
+<runstats><finished time="1755404983" timestr="Sun Aug 17 00:29:43 2025" summary="Nmap done at Sun Aug 17 00:29:43 2025; 1 IP address (1 host up) scanned in 1.78 seconds" elapsed="1.78" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

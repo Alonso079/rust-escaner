@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:04:46 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 47,69,79,95,111,116,33049,33224,33396,33559,34131,34294,34561,34625,34944,35851 -oX out/157.185.186.33/nmap.xml 157.185.186.33 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 47,69,79,95,111,116,33049,33224,33396,33559,34131,34294,34561,34625,34944,35851 -oX out/157.185.186.33/nmap.xml 157.185.186.33" start="1755446686" startstr="Sun Aug 17 12:04:46 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="16" services="47,69,79,95,111,116,33049,33224,33396,33559,34131,34294,34561,34625,34944,35851"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446686" endtime="1755446687"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.33" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="47"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ni-ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="69"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="79"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="finger" method="table" conf="3"/></port>
+<port protocol="tcp" portid="95"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="supdup" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="rpcbind" method="table" conf="3"/></port>
+<port protocol="tcp" portid="116"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ansanotify" method="table" conf="3"/></port>
+<port protocol="tcp" portid="33049"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="33224"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="33396"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="33559"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="34131"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="34294"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="34561"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="34625"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="34944"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="35851"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+</ports>
+<times srtt="54842" rttvar="94855" to="434262"/>
+</host>
+<runstats><finished time="1755446687" timestr="Sun Aug 17 12:04:47 2025" summary="Nmap done at Sun Aug 17 12:04:47 2025; 1 IP address (1 host up) scanned in 1.88 seconds" elapsed="1.88" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

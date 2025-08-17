@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:36:07 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 29,33,38,66,67,82,122,137,147,150,161,166,175,184,197,200,202,204,219,245 -oX out/157.185.186.73/nmap.xml 157.185.186.73 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 29,33,38,66,67,82,122,137,147,150,161,166,175,184,197,200,202,204,219,245 -oX out/157.185.186.73/nmap.xml 157.185.186.73" start="1755405367" startstr="Sun Aug 17 00:36:07 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="20" services="29,33,38,66-67,82,122,137,147,150,161,166,175,184,197,200,202,204,219,245"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755405368" endtime="1755405369"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.73" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="29"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="msg-icp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="33"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dsp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="38"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="rap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="66"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="sqlnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="67"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dhcps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="82"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="122"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="smakynet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="137"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netbios-ns" method="table" conf="3"/></port>
+<port protocol="tcp" portid="147"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="150"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="sql-net" method="table" conf="3"/></port>
+<port protocol="tcp" portid="161"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="166"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="s-net" method="table" conf="3"/></port>
+<port protocol="tcp" portid="175"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="vmnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="184"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ocserver" method="table" conf="3"/></port>
+<port protocol="tcp" portid="197"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dls" method="table" conf="3"/></port>
+<port protocol="tcp" portid="200"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="src" method="table" conf="3"/></port>
+<port protocol="tcp" portid="202"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="at-nbp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="204"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="219"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="uarps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="245"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="link" method="table" conf="3"/></port>
+</ports>
+<times srtt="143442" rttvar="195336" to="924786"/>
+</host>
+<runstats><finished time="1755405369" timestr="Sun Aug 17 00:36:09 2025" summary="Nmap done at Sun Aug 17 00:36:09 2025; 1 IP address (1 host up) scanned in 2.17 seconds" elapsed="2.17" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:07:17 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 29,57,58,73,82,84,88,92,144,152,158,199,225,230,256,294,295 -oX out/157.185.186.81/nmap.xml 157.185.186.81 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 29,57,58,73,82,84,88,92,144,152,158,199,225,230,256,294,295 -oX out/157.185.186.81/nmap.xml 157.185.186.81" start="1755446837" startstr="Sun Aug 17 12:07:17 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="17" services="29,57-58,73,82,84,88,92,144,152,158,199,225,230,256,294-295"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446837" endtime="1755446839"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.81" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="29"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="msg-icp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="57"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-term" method="table" conf="3"/></port>
+<port protocol="tcp" portid="58"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-mail" method="table" conf="3"/></port>
+<port protocol="tcp" portid="73"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netrjs-3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="82"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xfer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="84"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ctf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="88"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="kerberos-sec" method="table" conf="3"/></port>
+<port protocol="tcp" portid="92"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="npp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="144"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="news" method="table" conf="3"/></port>
+<port protocol="tcp" portid="152"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="158"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="pcmail-srv" method="table" conf="3"/></port>
+<port protocol="tcp" portid="199"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="smux" method="table" conf="3"/></port>
+<port protocol="tcp" portid="225"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="230"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="256"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="fw1-secureremote" method="table" conf="3"/></port>
+<port protocol="tcp" portid="294"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="295"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="137179" rttvar="192193" to="905951"/>
+</host>
+<runstats><finished time="1755446839" timestr="Sun Aug 17 12:07:19 2025" summary="Nmap done at Sun Aug 17 12:07:19 2025; 1 IP address (1 host up) scanned in 2.64 seconds" elapsed="2.64" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

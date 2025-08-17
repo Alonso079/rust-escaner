@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:05:20 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 14,22,39,41,56,74,76,81,83,87,119,128,166,177,212,215,230,251,266,269,280,285,304,322,327,333,337,355,374,385,398,401,432 -oX out/157.185.186.40/nmap.xml 157.185.186.40 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 14,22,39,41,56,74,76,81,83,87,119,128,166,177,212,215,230,251,266,269,280,285,304,322,327,333,337,355,374,385,398,401,432 -oX out/157.185.186.40/nmap.xml 157.185.186.40" start="1755446720" startstr="Sun Aug 17 12:05:20 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="33" services="14,22,39,41,56,74,76,81,83,87,119,128,166,177,212,215,230,251,266,269,280,285,304,322,327,333,337,355,374,385,398,401,432"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446721" endtime="1755446724"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.40" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="27">
+<extrareasons reason="host-unreach" count="27" proto="tcp" ports="14,22,39,41,74,76,83,87,119,128,166,177,215,230,251,266,280,304,322,327,333,337,374,385,398,401,432"/>
+</extraports>
+<port protocol="tcp" portid="56"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="81"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="212"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="269"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="285"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="355"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="207095" rttvar="209228" to="1044007"/>
+</host>
+<runstats><finished time="1755446724" timestr="Sun Aug 17 12:05:24 2025" summary="Nmap done at Sun Aug 17 12:05:24 2025; 1 IP address (1 host up) scanned in 3.07 seconds" elapsed="3.07" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

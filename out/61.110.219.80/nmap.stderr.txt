@@ -1,0 +1,2 @@
+Option --defeat-rst-ratelimit works only with a SYN scan (-sS)
+QUITTING!

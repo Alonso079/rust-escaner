@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:06:38 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 64,75,111,124,129,144,153,203,229,230,260,278,516 -oX out/157.185.186.67/nmap.xml 157.185.186.67 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 64,75,111,124,129,144,153,203,229,230,260,278,516 -oX out/157.185.186.67/nmap.xml 157.185.186.67" start="1755446798" startstr="Sun Aug 17 12:06:38 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="13" services="64,75,111,124,129,144,153,203,229-230,260,278,516"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446799" endtime="1755446800"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.67" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="64"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="covia" method="table" conf="3"/></port>
+<port protocol="tcp" portid="75"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-dial" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="rpcbind" method="table" conf="3"/></port>
+<port protocol="tcp" portid="124"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ansatrader" method="table" conf="3"/></port>
+<port protocol="tcp" portid="129"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="pwdgen" method="table" conf="3"/></port>
+<port protocol="tcp" portid="144"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="news" method="table" conf="3"/></port>
+<port protocol="tcp" portid="153"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="sgmp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="203"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="at-3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="229"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="230"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="260"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="openport" method="table" conf="3"/></port>
+<port protocol="tcp" portid="278"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="516"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="videotex" method="table" conf="3"/></port>
+</ports>
+<times srtt="98470" rttvar="159492" to="736438"/>
+</host>
+<runstats><finished time="1755446800" timestr="Sun Aug 17 12:06:40 2025" summary="Nmap done at Sun Aug 17 12:06:40 2025; 1 IP address (1 host up) scanned in 1.92 seconds" elapsed="1.92" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

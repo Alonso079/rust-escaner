@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 11:56:48 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 25,49,116,143,164,168,173,183,208,212,247,10417,10541,11332,11339,11948,12066 -oX out/157.185.186.108/nmap.xml 157.185.186.108 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 25,49,116,143,164,168,173,183,208,212,247,10417,10541,11332,11339,11948,12066 -oX out/157.185.186.108/nmap.xml 157.185.186.108" start="1755446208" startstr="Sun Aug 17 11:56:48 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="17" services="25,49,116,143,164,168,173,183,208,212,247,10417,10541,11332,11339,11948,12066"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446209" endtime="1755446210"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.108" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="tacacs" method="table" conf="3"/></port>
+<port protocol="tcp" portid="116"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ansanotify" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="164"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="cmip-agent" method="table" conf="3"/></port>
+<port protocol="tcp" portid="168"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="rsvd" method="table" conf="3"/></port>
+<port protocol="tcp" portid="173"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xyplex-mux" method="table" conf="3"/></port>
+<port protocol="tcp" portid="183"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ocbinder" method="table" conf="3"/></port>
+<port protocol="tcp" portid="208"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="at-8" method="table" conf="3"/></port>
+<port protocol="tcp" portid="212"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="anet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="247"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="subntbcst_tftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="10417"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="10541"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="MOS-upper" method="table" conf="3"/></port>
+<port protocol="tcp" portid="11332"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="11339"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="11948"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="12066"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+</ports>
+<times srtt="54757" rttvar="90101" to="415161"/>
+</host>
+<runstats><finished time="1755446210" timestr="Sun Aug 17 11:56:50 2025" summary="Nmap done at Sun Aug 17 11:56:50 2025; 1 IP address (1 host up) scanned in 2.40 seconds" elapsed="2.40" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

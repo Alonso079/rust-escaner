@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:31:41 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 22,27,48,67,69,71,76,84,101,106,111 -oX out/157.185.186.194/nmap.xml 157.185.186.194 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 22,27,48,67,69,71,76,84,101,106,111 -oX out/157.185.186.194/nmap.xml 157.185.186.194" start="1755405101" startstr="Sun Aug 17 00:31:41 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="11" services="22,27,48,67,69,71,76,84,101,106,111"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755405102" endtime="1755405104"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.194" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="27"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="nsw-fe" method="table" conf="3"/></port>
+<port protocol="tcp" portid="48"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="auditd" method="table" conf="3"/></port>
+<port protocol="tcp" portid="67"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="69"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="71"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="76"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="deos" method="table" conf="3"/></port>
+<port protocol="tcp" portid="84"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ctf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="101"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="hostname" method="table" conf="3"/></port>
+<port protocol="tcp" portid="106"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="pop3pw" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="178901" rttvar="214064" to="1035157"/>
+</host>
+<runstats><finished time="1755405104" timestr="Sun Aug 17 00:31:44 2025" summary="Nmap done at Sun Aug 17 00:31:44 2025; 1 IP address (1 host up) scanned in 3.39 seconds" elapsed="3.39" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

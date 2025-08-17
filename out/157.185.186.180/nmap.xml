@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:11:14 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 5,22,30,42,45,63,66,70,75,87,103,106 -oX out/157.185.186.180/nmap.xml 157.185.186.180 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 5,22,30,42,45,63,66,70,75,87,103,106 -oX out/157.185.186.180/nmap.xml 157.185.186.180" start="1755403874" startstr="Sun Aug 17 00:11:14 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="12" services="5,22,30,42,45,63,66,70,75,87,103,106"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755403875" endtime="1755403876"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.180" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="5"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="rje" method="table" conf="3"/></port>
+<port protocol="tcp" portid="22"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="30"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="42"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="nameserver" method="table" conf="3"/></port>
+<port protocol="tcp" portid="45"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mpm" method="table" conf="3"/></port>
+<port protocol="tcp" portid="63"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="via-ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="66"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="sqlnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="70"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="gopher" method="table" conf="3"/></port>
+<port protocol="tcp" portid="75"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-dial" method="table" conf="3"/></port>
+<port protocol="tcp" portid="87"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-term-l" method="table" conf="3"/></port>
+<port protocol="tcp" portid="103"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="gppitnp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="106"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="pop3pw" method="table" conf="3"/></port>
+</ports>
+<times srtt="7101" rttvar="1045" to="100000"/>
+</host>
+<runstats><finished time="1755403876" timestr="Sun Aug 17 00:11:16 2025" summary="Nmap done at Sun Aug 17 00:11:16 2025; 1 IP address (1 host up) scanned in 1.86 seconds" elapsed="1.86" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

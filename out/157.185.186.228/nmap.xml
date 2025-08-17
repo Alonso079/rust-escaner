@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:33:18 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 32,37,60,64,65,72,95,232 -oX out/157.185.186.228/nmap.xml 157.185.186.228 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 32,37,60,64,65,72,95,232 -oX out/157.185.186.228/nmap.xml 157.185.186.228" start="1755405198" startstr="Sun Aug 17 00:33:18 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="8" services="32,37,60,64-65,72,95,232"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755405198" endtime="1755405199"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.228" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="32"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="37"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="time" method="table" conf="3"/></port>
+<port protocol="tcp" portid="60"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="64"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="covia" method="table" conf="3"/></port>
+<port protocol="tcp" portid="65"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="tacacs-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="72"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netrjs-2" method="table" conf="3"/></port>
+<port protocol="tcp" portid="95"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="supdup" method="table" conf="3"/></port>
+<port protocol="tcp" portid="232"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+</ports>
+<times srtt="6325" rttvar="1760" to="100000"/>
+</host>
+<runstats><finished time="1755405199" timestr="Sun Aug 17 00:33:19 2025" summary="Nmap done at Sun Aug 17 00:33:19 2025; 1 IP address (1 host up) scanned in 1.79 seconds" elapsed="1.79" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

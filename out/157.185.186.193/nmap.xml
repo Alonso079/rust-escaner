@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:31:39 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 42,45,70,112,125,126,138,139,143,165,181,188,193,219 -oX out/157.185.186.193/nmap.xml 157.185.186.193 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 42,45,70,112,125,126,138,139,143,165,181,188,193,219 -oX out/157.185.186.193/nmap.xml 157.185.186.193" start="1755405099" startstr="Sun Aug 17 00:31:39 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="14" services="42,45,70,112,125-126,138-139,143,165,181,188,193,219"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755405100" endtime="1755405101"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.193" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="42"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="nameserver" method="table" conf="3"/></port>
+<port protocol="tcp" portid="45"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mpm" method="table" conf="3"/></port>
+<port protocol="tcp" portid="70"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="gopher" method="table" conf="3"/></port>
+<port protocol="tcp" portid="112"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mcidas" method="table" conf="3"/></port>
+<port protocol="tcp" portid="125"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="locus-map" method="table" conf="3"/></port>
+<port protocol="tcp" portid="126"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="unitary" method="table" conf="3"/></port>
+<port protocol="tcp" portid="138"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netbios-dgm" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="165"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-courier" method="table" conf="3"/></port>
+<port protocol="tcp" portid="181"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="unify" method="table" conf="3"/></port>
+<port protocol="tcp" portid="188"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mumps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="193"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="srmp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="219"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="uarps" method="table" conf="3"/></port>
+</ports>
+<times srtt="11115" rttvar="4175" to="100000"/>
+</host>
+<runstats><finished time="1755405101" timestr="Sun Aug 17 00:31:41 2025" summary="Nmap done at Sun Aug 17 00:31:41 2025; 1 IP address (1 host up) scanned in 1.80 seconds" elapsed="1.80" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

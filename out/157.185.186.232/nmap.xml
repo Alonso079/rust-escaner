@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:33:21 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 14,18,41,44,54,57,59,74,84,122,131,133,140,161,166,170,283,356 -oX out/157.185.186.232/nmap.xml 157.185.186.232 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 14,18,41,44,54,57,59,74,84,122,131,133,140,161,166,170,283,356 -oX out/157.185.186.232/nmap.xml 157.185.186.232" start="1755405201" startstr="Sun Aug 17 00:33:21 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="18" services="14,18,41,44,54,57,59,74,84,122,131,133,140,161,166,170,283,356"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755405202" endtime="1755405203"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.232" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="14"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="18"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="msp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="41"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="graphics" method="table" conf="3"/></port>
+<port protocol="tcp" portid="44"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mpm-flags" method="table" conf="3"/></port>
+<port protocol="tcp" portid="54"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xns-ch" method="table" conf="3"/></port>
+<port protocol="tcp" portid="57"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-term" method="table" conf="3"/></port>
+<port protocol="tcp" portid="59"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-file" method="table" conf="3"/></port>
+<port protocol="tcp" portid="74"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netrjs-4" method="table" conf="3"/></port>
+<port protocol="tcp" portid="84"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ctf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="122"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="smakynet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="131"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="cisco-tna" method="table" conf="3"/></port>
+<port protocol="tcp" portid="133"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="statsrv" method="table" conf="3"/></port>
+<port protocol="tcp" portid="140"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="emfis-data" method="table" conf="3"/></port>
+<port protocol="tcp" portid="161"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="166"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="s-net" method="table" conf="3"/></port>
+<port protocol="tcp" portid="170"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="print-srv" method="table" conf="3"/></port>
+<port protocol="tcp" portid="283"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="rescap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="356"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="cloanto-net-1" method="table" conf="3"/></port>
+</ports>
+<times srtt="52069" rttvar="86176" to="396773"/>
+</host>
+<runstats><finished time="1755405203" timestr="Sun Aug 17 00:33:23 2025" summary="Nmap done at Sun Aug 17 00:33:23 2025; 1 IP address (1 host up) scanned in 1.81 seconds" elapsed="1.81" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

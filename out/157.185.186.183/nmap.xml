@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:11:16 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 17,27,30,36,37,41,44,65,73 -oX out/157.185.186.183/nmap.xml 157.185.186.183 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 17,27,30,36,37,41,44,65,73 -oX out/157.185.186.183/nmap.xml 157.185.186.183" start="1755403876" startstr="Sun Aug 17 00:11:16 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="9" services="17,27,30,36-37,41,44,65,73"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755403876" endtime="1755403878"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.183" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="17"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="qotd" method="table" conf="3"/></port>
+<port protocol="tcp" portid="27"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="nsw-fe" method="table" conf="3"/></port>
+<port protocol="tcp" portid="30"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="36"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="37"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="time" method="table" conf="3"/></port>
+<port protocol="tcp" portid="41"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="graphics" method="table" conf="3"/></port>
+<port protocol="tcp" portid="44"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mpm-flags" method="table" conf="3"/></port>
+<port protocol="tcp" portid="65"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="tacacs-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="73"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netrjs-3" method="table" conf="3"/></port>
+</ports>
+<times srtt="9962" rttvar="2863" to="100000"/>
+</host>
+<runstats><finished time="1755403878" timestr="Sun Aug 17 00:11:18 2025" summary="Nmap done at Sun Aug 17 00:11:18 2025; 1 IP address (1 host up) scanned in 1.80 seconds" elapsed="1.80" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

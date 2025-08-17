@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:35:32 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 29,42,59,62,64,68,73,75,82,104,127,161,164,168,182,205,217,230,236 -oX out/157.185.186.62/nmap.xml 157.185.186.62 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 29,42,59,62,64,68,73,75,82,104,127,161,164,168,182,205,217,230,236 -oX out/157.185.186.62/nmap.xml 157.185.186.62" start="1755405332" startstr="Sun Aug 17 00:35:32 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="19" services="29,42,59,62,64,68,73,75,82,104,127,161,164,168,182,205,217,230,236"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755405333" endtime="1755405334"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.62" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="29"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="msg-icp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="42"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="nameserver" method="table" conf="3"/></port>
+<port protocol="tcp" portid="59"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-file" method="table" conf="3"/></port>
+<port protocol="tcp" portid="62"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="acas" method="table" conf="3"/></port>
+<port protocol="tcp" portid="64"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="covia" method="table" conf="3"/></port>
+<port protocol="tcp" portid="68"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dhcpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="73"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netrjs-3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="75"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="82"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="xfer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="104"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="acr-nema" method="table" conf="3"/></port>
+<port protocol="tcp" portid="127"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="locus-con" method="table" conf="3"/></port>
+<port protocol="tcp" portid="161"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="164"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="cmip-agent" method="table" conf="3"/></port>
+<port protocol="tcp" portid="168"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="rsvd" method="table" conf="3"/></port>
+<port protocol="tcp" portid="182"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="audit" method="table" conf="3"/></port>
+<port protocol="tcp" portid="205"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="at-5" method="table" conf="3"/></port>
+<port protocol="tcp" portid="217"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dbase" method="table" conf="3"/></port>
+<port protocol="tcp" portid="230"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="236"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+</ports>
+<times srtt="77994" rttvar="122726" to="568898"/>
+</host>
+<runstats><finished time="1755405334" timestr="Sun Aug 17 00:35:34 2025" summary="Nmap done at Sun Aug 17 00:35:34 2025; 1 IP address (1 host up) scanned in 2.32 seconds" elapsed="2.32" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

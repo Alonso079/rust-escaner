@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:00:52 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 1,9,32,39,40,65,73,88,96,97,104,108,111,114,125,147,154,188,190,195,217,221,244 -oX out/157.185.186.176/nmap.xml 157.185.186.176 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 1,9,32,39,40,65,73,88,96,97,104,108,111,114,125,147,154,188,190,195,217,221,244 -oX out/157.185.186.176/nmap.xml 157.185.186.176" start="1755446452" startstr="Sun Aug 17 12:00:52 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="23" services="1,9,32,39-40,65,73,88,96-97,104,108,111,114,125,147,154,188,190,195,217,221,244"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446453" endtime="1755446454"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.176" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="1"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="tcpmux" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="discard" method="table" conf="3"/></port>
+<port protocol="tcp" portid="32"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="39"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="rlp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="40"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="65"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="tacacs-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="73"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netrjs-3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="88"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="kerberos-sec" method="table" conf="3"/></port>
+<port protocol="tcp" portid="96"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dixie" method="table" conf="3"/></port>
+<port protocol="tcp" portid="97"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="swift-rvf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="104"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="acr-nema" method="table" conf="3"/></port>
+<port protocol="tcp" portid="108"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="snagas" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="rpcbind" method="table" conf="3"/></port>
+<port protocol="tcp" portid="114"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="audionews" method="table" conf="3"/></port>
+<port protocol="tcp" portid="125"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="locus-map" method="table" conf="3"/></port>
+<port protocol="tcp" portid="147"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="iso-ip" method="table" conf="3"/></port>
+<port protocol="tcp" portid="154"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netsc-prod" method="table" conf="3"/></port>
+<port protocol="tcp" portid="188"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mumps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="190"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="gacp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="195"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dn6-nlm-aud" method="table" conf="3"/></port>
+<port protocol="tcp" portid="217"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dbase" method="table" conf="3"/></port>
+<port protocol="tcp" portid="221"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="fln-spx" method="table" conf="3"/></port>
+<port protocol="tcp" portid="244"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="65206" rttvar="75569" to="367482"/>
+</host>
+<runstats><finished time="1755446454" timestr="Sun Aug 17 12:00:54 2025" summary="Nmap done at Sun Aug 17 12:00:54 2025; 1 IP address (1 host up) scanned in 1.96 seconds" elapsed="1.96" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

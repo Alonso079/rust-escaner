@@ -1,0 +1,33 @@
+[
+  {
+    "target": "64.176.14.193",
+    "ip": "64.176.14.193",
+    "ports": [
+      {
+        "port": 42625,
+        "state": "open",
+        "service": null
+      },
+      {
+        "port": 44229,
+        "state": "open",
+        "service": null
+      },
+      {
+        "port": 44879,
+        "state": "open",
+        "service": null
+      },
+      {
+        "port": 46848,
+        "state": "open",
+        "service": null
+      },
+      {
+        "port": 65287,
+        "state": "open",
+        "service": null
+      }
+    ]
+  }
+]

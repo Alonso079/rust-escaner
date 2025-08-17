@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 00:31:05 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 24,34,43,46,51,61,80,84,86,95,118 -oX out/157.185.186.178/nmap.xml 157.185.186.178 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 24,34,43,46,51,61,80,84,86,95,118 -oX out/157.185.186.178/nmap.xml 157.185.186.178" start="1755405065" startstr="Sun Aug 17 00:31:05 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="11" services="24,34,43,46,51,61,80,84,86,95,118"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755405067" endtime="1755405068"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.178" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="24"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-mail" method="table" conf="3"/></port>
+<port protocol="tcp" portid="34"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+<port protocol="tcp" portid="43"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="whois" method="table" conf="3"/></port>
+<port protocol="tcp" portid="46"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mpm-snd" method="table" conf="3"/></port>
+<port protocol="tcp" portid="51"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="la-maint" method="table" conf="3"/></port>
+<port protocol="tcp" portid="61"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="80"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="84"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ctf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="86"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="mfcobol" method="table" conf="3"/></port>
+<port protocol="tcp" portid="95"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="supdup" method="table" conf="3"/></port>
+<port protocol="tcp" portid="118"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="sqlserv" method="table" conf="3"/></port>
+</ports>
+<times srtt="54447" rttvar="95609" to="436883"/>
+</host>
+<runstats><finished time="1755405068" timestr="Sun Aug 17 00:31:08 2025" summary="Nmap done at Sun Aug 17 00:31:08 2025; 1 IP address (1 host up) scanned in 3.31 seconds" elapsed="3.31" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

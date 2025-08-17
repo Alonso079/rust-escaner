@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Sun Aug 17 12:02:04 2025 as: nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 25,59,69,71,79,89,97,101,113,117,118,132,157,178,187,216,217,220,236 -oX out/157.185.186.198/nmap.xml 157.185.186.198 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -Pn -&#45;version-intensity 4 -&#45;max-retries 1 -p 25,59,69,71,79,89,97,101,113,117,118,132,157,178,187,216,217,220,236 -oX out/157.185.186.198/nmap.xml 157.185.186.198" start="1755446524" startstr="Sun Aug 17 12:02:04 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="19" services="25,59,69,71,79,89,97,101,113,117-118,132,157,178,187,216-217,220,236"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1755446526" endtime="1755446527"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.185.186.198" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="59"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="priv-file" method="table" conf="3"/></port>
+<port protocol="tcp" portid="69"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="71"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="netrjs-1" method="table" conf="3"/></port>
+<port protocol="tcp" portid="79"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="finger" method="table" conf="3"/></port>
+<port protocol="tcp" portid="89"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="su-mit-tg" method="table" conf="3"/></port>
+<port protocol="tcp" portid="97"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="swift-rvf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="101"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="hostname" method="table" conf="3"/></port>
+<port protocol="tcp" portid="113"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="ident" method="table" conf="3"/></port>
+<port protocol="tcp" portid="117"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="uucp-path" method="table" conf="3"/></port>
+<port protocol="tcp" portid="118"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="sqlserv" method="table" conf="3"/></port>
+<port protocol="tcp" portid="132"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="cisco-sys" method="table" conf="3"/></port>
+<port protocol="tcp" portid="157"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="knet-cmp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="178"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="nextstep" method="table" conf="3"/></port>
+<port protocol="tcp" portid="187"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="aci" method="table" conf="3"/></port>
+<port protocol="tcp" portid="216"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="atls" method="table" conf="3"/></port>
+<port protocol="tcp" portid="217"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="dbase" method="table" conf="3"/></port>
+<port protocol="tcp" portid="220"><state state="filtered" reason="host-unreach" reason_ttl="0"/><service name="imap3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="236"><state state="filtered" reason="host-unreach" reason_ttl="0"/></port>
+</ports>
+<times srtt="8694" rttvar="699" to="100000"/>
+</host>
+<runstats><finished time="1755446527" timestr="Sun Aug 17 12:02:07 2025" summary="Nmap done at Sun Aug 17 12:02:07 2025; 1 IP address (1 host up) scanned in 2.90 seconds" elapsed="2.90" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
